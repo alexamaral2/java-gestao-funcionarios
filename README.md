@@ -38,6 +38,7 @@
 
 <h2>Estrutura</h2>
   <ul>
+	<li><strong>model</strong> - classes de domínio</li>
     <li><strong>service</strong> - regras de negócio</li>
     <li><strong>util</strong> - formatação de datas e salários</li>
     <li><strong>Principal</strong> - ponto de execução da aplicação</li>
