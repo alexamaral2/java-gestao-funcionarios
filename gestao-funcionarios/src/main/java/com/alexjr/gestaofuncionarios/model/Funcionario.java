@@ -49,11 +49,11 @@ public class Funcionario extends Pessoa {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Funcionario that = (Funcionario) o;
-        return Objects.equals(salario, that.salario) && Objects.equals(funcao, that.funcao);
+        return Objects.equals(getId(), that.getId());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(salario, funcao);
+        return Objects.hash(getId());
     }
 }
